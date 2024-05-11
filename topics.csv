@@ -11,12 +11,12 @@ Order,Topic,Pages
 10,Tuples,2
 11,Enumerate,2
 12,F-Strings,2
-13,"Write Text Files, Read Text Files",3
+13,"Write Text Files\, Read Text Files",3
 14,File Paths,2
 15,List Comprehensions,2
 16,Comments,2
 17,With-Context Manager,2
-18,"If, Elif, and Else Conditionals",3
+18,"If\, Elif\, and Else Conditionals",3
 19,Slicing,2
 20,Dictionaries,3
 21,Try-Except and Exceptions,2
