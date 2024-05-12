@@ -27,9 +27,10 @@ for index, row in topics.iterrows():
         pdf.set_font(family="Arial", size=12)
         pdf.set_text_color(100, 100, 100)
         pdf.cell(w=0, h=0, txt="Notes:", align="L", ln=1)
-        
+
         pdf.ln(266)
         pdf.set_font(family="Arial", size=10, style="I")
         pdf.set_text_color(180, 180, 180)
-        pdf.cell(w=0, h=12, txt=f"{row['Topic']} | Page {p + 2}", align="R", ln=1)
+        pdf.cell(w=0, h=12, txt=f"{row['Topic']} | Page {p + 2}",
+                 align="R", ln=1)
 pdf.output("output.pdf")
